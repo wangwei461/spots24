@@ -1,0 +1,79 @@
+.main-body {
+  /* align-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+/* 数字按钮组*/
+
+.btn-num-group {
+  float: left;
+  margin: 30px 0px;
+  /* overflow: hidden; */
+}
+
+.btn-number {
+  height: 40px;
+  width: 50px;
+  float: left;
+  margin: 0px 10px;
+}
+
+/*输入框*/
+
+.spot-input-group {
+  margin-top: 30px;
+}
+
+.spot-input {
+  background-color: #eee;
+  height: 50px;
+  width: 93%;
+  margin: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid #00b26a;
+  text-align: center;
+  ime-mode: disabled;
+}
+
+/* 字符组*/
+
+.btn-ch-group {
+  float: left;
+}
+
+.btn-ch {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin: 30px 8px;
+}
+
+.btn-style-ch {
+  height: 30px;
+  width: 30px;
+  /* display: flex;
+   */
+  text-align: center;
+}
+
+/* 验证按钮组  */
+
+.btn-check-group {
+  float: left;
+  width: 92%;
+  margin: 10% 10px;
+}
+
+.btn-check-left {
+  float: left;
+  width: 100px;
+}
+
+.btn-check-right {
+  width: 100px;
+  float: right;
+}

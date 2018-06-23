@@ -1,0 +1,62 @@
+<view class='main-body'>
+
+  <view class='btn-num-group'>
+    <view class='btn-number'>
+      <button>1</button>
+    </view>
+
+    <view class='btn-number'>
+      <button>2</button>
+    </view>
+
+    <view class='btn-number'>
+      <button>3</button>
+    </view>
+
+    <view class='btn-number'>
+      <button>4</button>
+    </view>
+  </view>
+
+  <view class='spot-input-group'>
+    <input class="spot-input" focus="true" type='text' placeholder="输入公式" />
+  </view>
+
+  
+  <view class='btn-ch-group'> 
+    <view class='btn-ch'> 
+      <button class='btn-style-ch'>+</button>
+    </view>
+
+    <view class='btn-ch'> 
+      <button class='btn-style-ch'>-</button>
+    </view>
+
+    <view class='btn-ch'> 
+      <button class='btn-style-ch'>*</button>
+    </view>
+
+    <view class='btn-ch'> 
+      <button class='btn-style-ch'>/</button>
+    </view> 
+
+    <view class='btn-ch'> 
+      <button class='btn-style-ch'>(</button>
+    </view>
+
+    <view class='btn-ch'> 
+      <button class='btn-style-ch'>)</button>
+    </view> 
+  </view>
+
+  <view class='btn-check-group'>
+    <view class='btn-check-left'>
+      <button type='primary'>验证</button>
+    </view>
+
+    <view class='btn-check-right'>
+      <button>提示</button>
+    </view>
+  </view>
+
+</view>
