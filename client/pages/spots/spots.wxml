@@ -2,60 +2,60 @@
 
   <view class='btn-num-group'>
     <view class='btn-number'>
-      <button>1</button>
+      <button type="{{disabled1}}" bindtap='oneBtnClick' data-select="{{item.content}}">{{one}}</button>
     </view>
 
     <view class='btn-number'>
-      <button>2</button>
+      <button type="{{disabled2}}" bindtap='twoBtnClick'>{{two}}</button>
     </view>
 
     <view class='btn-number'>
-      <button>3</button>
+      <button type="{{disabled3}}" bindtap='threeBtnClick'>{{three}}</button>
     </view>
 
     <view class='btn-number'>
-      <button>4</button>
+      <button type="{{disabled4}}" bindtap='foreBtnClick'>{{fore}}</button>
     </view>
   </view>
 
   <view class='spot-input-group'>
-    <input class="spot-input" focus="true" type='text' placeholder="输入公式" />
+    <input bindinput='inputValue' value="{{inputTxt}}" class="spot-input" focus="true" type='text' placeholder="输入公式" />
   </view>
 
-  
-  <view class='btn-ch-group'> 
-    <view class='btn-ch'> 
-      <button class='btn-style-ch'>+</button>
+
+  <view class='btn-ch-group'>
+    <view class='btn-ch'>
+      <button bindtap='btnClickJia' data-ch="+" class='btn-style-ch'>+</button>
     </view>
 
-    <view class='btn-ch'> 
-      <button class='btn-style-ch'>-</button>
+    <view class='btn-ch'>
+      <button bindtap='btnClickJian' data-ch="-" class='btn-style-ch'>-</button>
     </view>
 
-    <view class='btn-ch'> 
-      <button class='btn-style-ch'>*</button>
+    <view class='btn-ch'>
+      <button bindtap='btnClickCheng' data-ch="*" class='btn-style-ch'>*</button>
     </view>
 
-    <view class='btn-ch'> 
-      <button class='btn-style-ch'>/</button>
-    </view> 
-
-    <view class='btn-ch'> 
-      <button class='btn-style-ch'>(</button>
+    <view class='btn-ch'>
+      <button bindtap='btnClickChu' data-ch="/" class='btn-style-ch'>/</button>
     </view>
 
-    <view class='btn-ch'> 
-      <button class='btn-style-ch'>)</button>
-    </view> 
+    <view class='btn-ch'>
+      <button bindtap='btnClickLeft' data-ch="(" class='btn-style-ch'>(</button>
+    </view>
+
+    <view class='btn-ch'>
+      <button bindtap='btnClickRight' data-ch=")" class='btn-style-ch'>)</button>
+    </view>
   </view>
 
   <view class='btn-check-group'>
     <view class='btn-check-left'>
-      <button type='primary'>验证</button>
+      <button bindtap="checkBtnClick" type='primary'>验证</button>
     </view>
 
     <view class='btn-check-right'>
-      <button>提示</button>
+      <button bindtap='tipsBtnClick'>提示</button>
     </view>
   </view>
 
